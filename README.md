@@ -41,3 +41,39 @@ This is the backend for a real-time interview assistant using FastAPI, live-tran
 ## Testing
 
 Run tests with:
+
+
+## Usage
+
+- Start the backend as above.
+- Connect a WebSocket client to `ws://localhost:8000/ws/transcribe` and stream audio bytes.
+- Use the `/generate-followup` endpoint to get follow-up questions.
+
+## Health Check
+
+Test the backend is running:
+curl http://localhost:8000/health
+
+
+## Notes
+
+- For the full system, use the provided React frontend in the `/frontend` directory.
+- Restrict CORS and secure your API keys in production.
+
+
+# Interview Assistant Frontend
+
+## Setup
+
+1. Install dependencies:
+    ```
+    npm install
+    ```
+
+2. Start the development server:
+    ```
+    npm start
+    ```
+
+The app will connect to the backend at `localhost:8000` by default.
+
