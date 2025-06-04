@@ -19,8 +19,8 @@ This is the backend for a real-time interview assistant using FastAPI, live-tran
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/interview-assistant.git
-    cd interview-assistant/backend
+    git clone https://github.com/NijilChandran1/interview_assist.git
+    cd interview_assist/backend
     ```
 
 2. Install dependencies:
